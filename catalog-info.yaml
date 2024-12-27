@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vivaldi
+  annotations:
+    github.com/project-slug: kssantana/vivaldi
+spec:
+  type: other
+  lifecycle: unknown
