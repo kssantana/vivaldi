@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: vivaldi
-  annotations:
-    github.com/project-slug: kssantana/vivaldi
+  name: artist-lookup
+  description: Artist Lookup
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
+  owner: kssantana
